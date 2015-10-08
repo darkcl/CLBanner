@@ -1,0 +1,14 @@
+PODS:
+  - CLBanner (0.1.0)
+
+DEPENDENCIES:
+  - CLBanner (from `../`)
+
+EXTERNAL SOURCES:
+  CLBanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CLBanner: a643cd22fd5c0fce83011d4a5ea73a9f25883c66
+
+COCOAPODS: 0.38.2
