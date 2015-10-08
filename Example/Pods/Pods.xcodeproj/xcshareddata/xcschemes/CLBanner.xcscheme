@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "599DC4731E25CE440A469CEE"
-               BuildableName = "CLBanner.framework"
+               BlueprintIdentifier = "13222950C99EBB9226C532BC"
+               BuildableName = "libCLBanner.a"
                BlueprintName = "CLBanner"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

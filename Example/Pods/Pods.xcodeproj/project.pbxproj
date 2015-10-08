@@ -7,152 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E1004A21BC6221000A9C10C /* CLBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1004A01BC6221000A9C10C /* CLBanner.h */; };
-		0E1004A31BC6221000A9C10C /* CLBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1004A11BC6221000A9C10C /* CLBanner.m */; };
-		19E43B5BC92FC9458DAE87AE863F6A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B6049C32D6DE87F05AF0CD2274EB6E /* Foundation.framework */; };
-		4481E720E370D0D6C3C71F5C375658BB /* CLBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8AAAFC5A723283E96FE88B0B977B43 /* CLBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C23481279DCBCB36D50994FE2CA2934 /* Pods-CLBanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25111847F19185A8D140E82F5D22EE88 /* Pods-CLBanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BC4BB5DBBA5347FA050A39F0D00A1E3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C26C6C19E74BB376CB0EDA028408A /* ReplaceMe.m */; };
-		A992DCE7583244D8F54B427A923E436E /* CLBanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CA5954A910E2956C1434614C1414364 /* CLBanner.bundle */; };
-		B9D8A594F53B90BC1AA396EF141D7CC1 /* Pods-CLBanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F2D982A79F88D73990873E7A9EA9E0 /* Pods-CLBanner_Example-dummy.m */; };
-		C0BEE488E03C1DC4CED5B0C1182CFD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B6049C32D6DE87F05AF0CD2274EB6E /* Foundation.framework */; };
-		D16D12F78DA8BC574DC2AB6D8E937259 /* CLBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519FB06D0698B70DFFB50E5597738F52 /* CLBanner-dummy.m */; };
-		D508F6202C5419770578A7F9DA98E6C0 /* Pods-CLBanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7F196F5B03F6A77C4E0A76815E9DE6 /* Pods-CLBanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAB8C43F5C03D17EFD7C1C81DA6FB1AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B6049C32D6DE87F05AF0CD2274EB6E /* Foundation.framework */; };
-		F8E7E5959BCE2BF0C7C4A2B29EB2FC56 /* Pods-CLBanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C39DB489D703F7FE1C84D2E536F52E /* Pods-CLBanner_Tests-dummy.m */; };
+		1749F4190A8E165F63350F16A73CB081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FB67FBF16870F8D43181B2C32722A2 /* Foundation.framework */; };
+		507969E8F4F2467D385053C0EE554D7F /* Pods-CLBanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CDFBDBC4D9C7E4ABC885CBE9454D3B /* Pods-CLBanner_Tests-dummy.m */; };
+		7197BCF93F1DB46048EB40793F6F7F0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FB67FBF16870F8D43181B2C32722A2 /* Foundation.framework */; };
+		7AA1D270584D2C5FE10F2AB9632BE7C8 /* CLBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = F16C9BB329593A0332ED1369A9DE92EB /* CLBanner.h */; };
+		8B8C2C0B7FDABA4F5069384F018A1F8A /* Pods-CLBanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD3282BF6BE4DFF0AA8311C7BA1E5AD /* Pods-CLBanner_Example-dummy.m */; };
+		940B9589C16A6F2E29011FBDD21658FA /* CLBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FF0CCB5322162F4B8C9003B6547B59 /* CLBanner.m */; };
+		BDB414F25DE4370A36F8B67D3955DAD6 /* CLBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 830C24F7EB17F8DBFF38B76DC902EBE5 /* CLBanner-dummy.m */; };
+		E77E88A9EF47CE9E4118097A9FCAD950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FB67FBF16870F8D43181B2C32722A2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25C7F0D0EE318E91EA5969469D235080 /* PBXContainerItemProxy */ = {
+		20A06EF1537FE13ABAF95E3523004997 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 348595D7D84F12520AF8D18A80ABC8E8;
+			remoteGlobalIDString = 2E6DCFAA9B21918886E917AC041FD686;
 			remoteInfo = CLBanner;
 		};
-		911987A8D62FCDF93E6B4FB0B2DA0C38 /* PBXContainerItemProxy */ = {
+		9DED4450EC2F4997358E802A67C49037 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FBD94380F53597591BC16BDE002672D;
+			remoteGlobalIDString = BB7281D526ACA184A281FF71C5209705;
 			remoteInfo = "CLBanner-CLBanner";
 		};
-		E25CB92519316699A3E5F5C6C893000B /* PBXContainerItemProxy */ = {
+		A30D84DBAD6ECA87F58AA40BB70E0DAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 348595D7D84F12520AF8D18A80ABC8E8;
+			remoteGlobalIDString = 2E6DCFAA9B21918886E917AC041FD686;
 			remoteInfo = CLBanner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012C26C6C19E74BB376CB0EDA028408A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		0E1004A01BC6221000A9C10C /* CLBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBanner.h; sourceTree = "<group>"; };
-		0E1004A11BC6221000A9C10C /* CLBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBanner.m; sourceTree = "<group>"; };
-		1015597DFE358B5C3F894496834669CF /* Pods_CLBanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16E8039D1F0D5D2B4EF2405CE66ACD80 /* CLBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLBanner.xcconfig; sourceTree = "<group>"; };
-		1F1AC378D9C0EB2D1CC1CC1C842C8BB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25111847F19185A8D140E82F5D22EE88 /* Pods-CLBanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLBanner_Example-umbrella.h"; sourceTree = "<group>"; };
-		278F701EEF63220FB8E465C6E69B50F4 /* Pods-CLBanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLBanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36F2D982A79F88D73990873E7A9EA9E0 /* Pods-CLBanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLBanner_Example-dummy.m"; sourceTree = "<group>"; };
-		38C9DBDDACDE5A878E0B995662820D38 /* CLBanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CLBanner.modulemap; sourceTree = "<group>"; };
-		519FB06D0698B70DFFB50E5597738F52 /* CLBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLBanner-dummy.m"; sourceTree = "<group>"; };
-		52B15D18A56289AD2FCEF62E844A308D /* Pods-CLBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5AC326BBE1D85D1D5407916B674D1C2C /* Pods-CLBanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLBanner_Tests-resources.sh"; sourceTree = "<group>"; };
-		5CA5954A910E2956C1434614C1414364 /* CLBanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLBanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C39DB489D703F7FE1C84D2E536F52E /* Pods-CLBanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLBanner_Tests-dummy.m"; sourceTree = "<group>"; };
-		807FFD981DAE12C7EC30237582E5762B /* Pods-CLBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8107ADC510A3CEA91A823AAFA0B611D8 /* Pods-CLBanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CLBanner_Example.modulemap"; sourceTree = "<group>"; };
-		810A4C46972B06C3EF1AC9A0686E3684 /* Pods-CLBanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLBanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		901A3D12CD9BF976E3B83EF8F39795E0 /* CLBanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		937EAE939BFD0500FA084614207BC6A1 /* Pods-CLBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D06C31022FF08C59528942221EF4E1D /* Pods-CLBanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLBanner_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AB7F196F5B03F6A77C4E0A76815E9DE6 /* Pods-CLBanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CLBanner_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AF8AAAFC5A723283E96FE88B0B977B43 /* CLBanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLBanner-umbrella.h"; sourceTree = "<group>"; };
-		B7ABD70CFB328ADEA320D7CFAB78C0AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA07802BB9B54C37A7D6407595607B00 /* CLBanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CLBanner-Private.xcconfig"; sourceTree = "<group>"; };
+		15F055B247692661B2DD21B2F54689EE /* Pods-CLBanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLBanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		176CD7032583F036A6018DDFDD38A9F8 /* Pods-CLBanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLBanner_Tests-resources.sh"; sourceTree = "<group>"; };
+		1A89E6FF9C69ED07BD3EC8B8538683A2 /* Pods-CLBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		251034395E4110788DAC6E2511AFF8AE /* Pods-CLBanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLBanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		264376E7B11F13A47653EF8A62FDA1E4 /* Pods-CLBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E07D35661FC7FC0F2FAD341E24CA95B /* Pods-CLBanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLBanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		390AD8BB449F85E4F0CF2AB4D3DAF2AF /* Pods-CLBanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLBanner_Example-resources.sh"; sourceTree = "<group>"; };
+		400EBD82E8B79CD166E56854AAD3B31C /* libPods-CLBanner_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLBanner_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4577B182ABBB3FFFB4245211E1149EE7 /* Pods-CLBanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLBanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DDF2463A1EE98DE47B8EE82A5ADEA96 /* libCLBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCLBanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD3282BF6BE4DFF0AA8311C7BA1E5AD /* Pods-CLBanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLBanner_Example-dummy.m"; sourceTree = "<group>"; };
+		57CDFBDBC4D9C7E4ABC885CBE9454D3B /* Pods-CLBanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CLBanner_Tests-dummy.m"; sourceTree = "<group>"; };
+		57D3BF89B8E5B0DB30C10BF0538EA95F /* libPods-CLBanner_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLBanner_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B512B05F1D583ED0B6FC4F0DA9FAB15 /* Pods-CLBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6D1454CE9C2FE22214668B0305D05F03 /* CLBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLBanner-prefix.pch"; sourceTree = "<group>"; };
+		76A18A76AF6CD245D0483F67293B1D8F /* CLBanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLBanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E549E43565164C48ECE8FB57930E9D /* Pods-CLBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		830C24F7EB17F8DBFF38B76DC902EBE5 /* CLBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLBanner-dummy.m"; sourceTree = "<group>"; };
+		99FB67FBF16870F8D43181B2C32722A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5FF0CCB5322162F4B8C9003B6547B59 /* CLBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLBanner.m; sourceTree = "<group>"; };
+		B30A593964E3D8C71C2404CE5FCDD9F0 /* CLBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLBanner.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBAC4BA1F5BBB425C6B13984B39A4976 /* Pods-CLBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CLBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BC15291761DDCA18044B70718C21870E /* CLBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLBanner-prefix.pch"; sourceTree = "<group>"; };
-		C2B2F333F6C348DA6AD57A625603EAF9 /* Pods-CLBanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLBanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C672108392547EC89B051FDBF86E7875 /* Pods-CLBanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CLBanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7A0B6D3CB66720F3DD392AA6DE62802 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCE9601E3FBE83D9EF42DB7BD41725CD /* Pods-CLBanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CLBanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDFA1C27EFB4EF5773BA6623D8D11B6C /* Pods-CLBanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CLBanner_Example-resources.sh"; sourceTree = "<group>"; };
-		D2B6049C32D6DE87F05AF0CD2274EB6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E07EA0264A648D19DEF23CCAB6D4D6BE /* Pods-CLBanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CLBanner_Tests.modulemap"; sourceTree = "<group>"; };
-		FA3C97ACFB6D6A3C7CB8ABF414408A03 /* Pods_CLBanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLBanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F8835D77CD5D597C3475AA3C97CDB1 /* CLBanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CLBanner-Private.xcconfig"; sourceTree = "<group>"; };
+		F16C9BB329593A0332ED1369A9DE92EB /* CLBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLBanner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2007DFC9B86CBE1E0899CF0C8A20ACDE /* Frameworks */ = {
+		19AC30271652668050DCDE73B0D22801 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BEE488E03C1DC4CED5B0C1182CFD8E /* Foundation.framework in Frameworks */,
+				E77E88A9EF47CE9E4118097A9FCAD950 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		368F63246C0ACC217DDE29B076997141 /* Frameworks */ = {
+		5FAAA0FD6110E6BF86554AF567A4AA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7197BCF93F1DB46048EB40793F6F7F0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D8B25E0EED6083AE5DD495A495BFD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BCE73B1DB3E9C9551F6186AA9D273B5 /* Frameworks */ = {
+		DFC7C9EA027D83AC364613FF110285A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB8C43F5C03D17EFD7C1C81DA6FB1AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA59D7937E9EFD6AB8BDCAB2FD423045 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19E43B5BC92FC9458DAE87AE863F6A4D /* Foundation.framework in Frameworks */,
+				1749F4190A8E165F63350F16A73CB081 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2604B04B28FE09E2D8F933E7A1C32295 /* Targets Support Files */ = {
+		04DD8CAE7A96BBE94C4E5DC913DA0BD9 /* Pods-CLBanner_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A7C3E555347E011E9AD2A74F1195CD83 /* Pods-CLBanner_Example */,
-				3B37AFA077D5B9ED49C775D48E96D25C /* Pods-CLBanner_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3B37AFA077D5B9ED49C775D48E96D25C /* Pods-CLBanner_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1F1AC378D9C0EB2D1CC1CC1C842C8BB5 /* Info.plist */,
-				E07EA0264A648D19DEF23CCAB6D4D6BE /* Pods-CLBanner_Tests.modulemap */,
-				278F701EEF63220FB8E465C6E69B50F4 /* Pods-CLBanner_Tests-acknowledgements.markdown */,
-				CCE9601E3FBE83D9EF42DB7BD41725CD /* Pods-CLBanner_Tests-acknowledgements.plist */,
-				74C39DB489D703F7FE1C84D2E536F52E /* Pods-CLBanner_Tests-dummy.m */,
-				810A4C46972B06C3EF1AC9A0686E3684 /* Pods-CLBanner_Tests-frameworks.sh */,
-				5AC326BBE1D85D1D5407916B674D1C2C /* Pods-CLBanner_Tests-resources.sh */,
-				AB7F196F5B03F6A77C4E0A76815E9DE6 /* Pods-CLBanner_Tests-umbrella.h */,
-				937EAE939BFD0500FA084614207BC6A1 /* Pods-CLBanner_Tests.debug.xcconfig */,
-				807FFD981DAE12C7EC30237582E5762B /* Pods-CLBanner_Tests.release.xcconfig */,
+				2E07D35661FC7FC0F2FAD341E24CA95B /* Pods-CLBanner_Tests-acknowledgements.markdown */,
+				251034395E4110788DAC6E2511AFF8AE /* Pods-CLBanner_Tests-acknowledgements.plist */,
+				57CDFBDBC4D9C7E4ABC885CBE9454D3B /* Pods-CLBanner_Tests-dummy.m */,
+				176CD7032583F036A6018DDFDD38A9F8 /* Pods-CLBanner_Tests-resources.sh */,
+				264376E7B11F13A47653EF8A62FDA1E4 /* Pods-CLBanner_Tests.debug.xcconfig */,
+				81E549E43565164C48ECE8FB57930E9D /* Pods-CLBanner_Tests.release.xcconfig */,
 			);
 			name = "Pods-CLBanner_Tests";
 			path = "Target Support Files/Pods-CLBanner_Tests";
 			sourceTree = "<group>";
 		};
+		0E42B3A07C72A7913966888084256D29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A393B08838E524E7EF1478D6C92B727 /* Pods-CLBanner_Example */,
+				04DD8CAE7A96BBE94C4E5DC913DA0BD9 /* Pods-CLBanner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3991C58A4C8D91C279599E0AB1F673E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F16C9BB329593A0332ED1369A9DE92EB /* CLBanner.h */,
+				A5FF0CCB5322162F4B8C9003B6547B59 /* CLBanner.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D2B6049C32D6DE87F05AF0CD2274EB6E /* Foundation.framework */,
+				99FB67FBF16870F8D43181B2C32722A2 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A393B08838E524E7EF1478D6C92B727 /* Pods-CLBanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4577B182ABBB3FFFB4245211E1149EE7 /* Pods-CLBanner_Example-acknowledgements.markdown */,
+				15F055B247692661B2DD21B2F54689EE /* Pods-CLBanner_Example-acknowledgements.plist */,
+				4FD3282BF6BE4DFF0AA8311C7BA1E5AD /* Pods-CLBanner_Example-dummy.m */,
+				390AD8BB449F85E4F0CF2AB4D3DAF2AF /* Pods-CLBanner_Example-resources.sh */,
+				1A89E6FF9C69ED07BD3EC8B8538683A2 /* Pods-CLBanner_Example.debug.xcconfig */,
+				5B512B05F1D583ED0B6FC4F0DA9FAB15 /* Pods-CLBanner_Example.release.xcconfig */,
+			);
+			name = "Pods-CLBanner_Example";
+			path = "Target Support Files/Pods-CLBanner_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -162,36 +164,30 @@
 				DA3FAE14C46FFEC7A84B0D872322784C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				2604B04B28FE09E2D8F933E7A1C32295 /* Targets Support Files */,
+				0E42B3A07C72A7913966888084256D29 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		88820454F21391C6BBC26FCC87A595F7 /* CLBanner */ = {
+		9A3528BB2A968413113F210338AA7706 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDECA3F7D8C9E532B46C5B9A974705EB /* Pod */,
-				E34BB23409026970B61BC9EB0077C5FD /* Support Files */,
+				B30A593964E3D8C71C2404CE5FCDD9F0 /* CLBanner.xcconfig */,
+				C1F8835D77CD5D597C3475AA3C97CDB1 /* CLBanner-Private.xcconfig */,
+				830C24F7EB17F8DBFF38B76DC902EBE5 /* CLBanner-dummy.m */,
+				6D1454CE9C2FE22214668B0305D05F03 /* CLBanner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CLBanner";
+			sourceTree = "<group>";
+		};
+		9EBE9F38BBE69C35DF67F515F8D42BB3 /* CLBanner */ = {
+			isa = PBXGroup;
+			children = (
+				F6DDDD0BC15B24992F213F78A71DBD07 /* Pod */,
+				9A3528BB2A968413113F210338AA7706 /* Support Files */,
 			);
 			name = CLBanner;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		A7C3E555347E011E9AD2A74F1195CD83 /* Pods-CLBanner_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C7A0B6D3CB66720F3DD392AA6DE62802 /* Info.plist */,
-				8107ADC510A3CEA91A823AAFA0B611D8 /* Pods-CLBanner_Example.modulemap */,
-				C672108392547EC89B051FDBF86E7875 /* Pods-CLBanner_Example-acknowledgements.markdown */,
-				C2B2F333F6C348DA6AD57A625603EAF9 /* Pods-CLBanner_Example-acknowledgements.plist */,
-				36F2D982A79F88D73990873E7A9EA9E0 /* Pods-CLBanner_Example-dummy.m */,
-				9D06C31022FF08C59528942221EF4E1D /* Pods-CLBanner_Example-frameworks.sh */,
-				CDFA1C27EFB4EF5773BA6623D8D11B6C /* Pods-CLBanner_Example-resources.sh */,
-				25111847F19185A8D140E82F5D22EE88 /* Pods-CLBanner_Example-umbrella.h */,
-				BBAC4BA1F5BBB425C6B13984B39A4976 /* Pods-CLBanner_Example.debug.xcconfig */,
-				52B15D18A56289AD2FCEF62E844A308D /* Pods-CLBanner_Example.release.xcconfig */,
-			);
-			name = "Pods-CLBanner_Example";
-			path = "Target Support Files/Pods-CLBanner_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -205,10 +201,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CA5954A910E2956C1434614C1414364 /* CLBanner.bundle */,
-				901A3D12CD9BF976E3B83EF8F39795E0 /* CLBanner.framework */,
-				1015597DFE358B5C3F894496834669CF /* Pods_CLBanner_Example.framework */,
-				FA3C97ACFB6D6A3C7CB8ABF414408A03 /* Pods_CLBanner_Tests.framework */,
+				76A18A76AF6CD245D0483F67293B1D8F /* CLBanner.bundle */,
+				4DDF2463A1EE98DE47B8EE82A5ADEA96 /* libCLBanner.a */,
+				57D3BF89B8E5B0DB30C10BF0538EA95F /* libPods-CLBanner_Example.a */,
+				400EBD82E8B79CD166E56854AAD3B31C /* libPods-CLBanner_Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,101 +212,75 @@
 		DA3FAE14C46FFEC7A84B0D872322784C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				88820454F21391C6BBC26FCC87A595F7 /* CLBanner */,
+				9EBE9F38BBE69C35DF67F515F8D42BB3 /* CLBanner */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DA56FA237AC684A00A4C93887E93978D /* Classes */ = {
+		F6DDDD0BC15B24992F213F78A71DBD07 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				012C26C6C19E74BB376CB0EDA028408A /* ReplaceMe.m */,
-				0E1004A01BC6221000A9C10C /* CLBanner.h */,
-				0E1004A11BC6221000A9C10C /* CLBanner.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DDECA3F7D8C9E532B46C5B9A974705EB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DA56FA237AC684A00A4C93887E93978D /* Classes */,
+				3991C58A4C8D91C279599E0AB1F673E9 /* Classes */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		E34BB23409026970B61BC9EB0077C5FD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				38C9DBDDACDE5A878E0B995662820D38 /* CLBanner.modulemap */,
-				16E8039D1F0D5D2B4EF2405CE66ACD80 /* CLBanner.xcconfig */,
-				BA07802BB9B54C37A7D6407595607B00 /* CLBanner-Private.xcconfig */,
-				519FB06D0698B70DFFB50E5597738F52 /* CLBanner-dummy.m */,
-				BC15291761DDCA18044B70718C21870E /* CLBanner-prefix.pch */,
-				AF8AAAFC5A723283E96FE88B0B977B43 /* CLBanner-umbrella.h */,
-				B7ABD70CFB328ADEA320D7CFAB78C0AB /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CLBanner";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		66BAA3263972BE809E5C9B3A4AF783F2 /* Headers */ = {
+		D1F20E6179394E80165F0821AE995464 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4481E720E370D0D6C3C71F5C375658BB /* CLBanner-umbrella.h in Headers */,
-				0E1004A21BC6221000A9C10C /* CLBanner.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E506973DE0C569D27D9AF833310A7BB3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5C23481279DCBCB36D50994FE2CA2934 /* Pods-CLBanner_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EABBA14D2460E8D5FD42FB4F1911ECE6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D508F6202C5419770578A7F9DA98E6C0 /* Pods-CLBanner_Tests-umbrella.h in Headers */,
+				7AA1D270584D2C5FE10F2AB9632BE7C8 /* CLBanner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		348595D7D84F12520AF8D18A80ABC8E8 /* CLBanner */ = {
+		2E6DCFAA9B21918886E917AC041FD686 /* CLBanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3DD15B83E7EFCF0B721991E06C5FCCA /* Build configuration list for PBXNativeTarget "CLBanner" */;
+			buildConfigurationList = 2394D5454CF06D608BD8397B127BC499 /* Build configuration list for PBXNativeTarget "CLBanner" */;
 			buildPhases = (
-				F4DD0B98743470F40EB1FCD5E737D564 /* Sources */,
-				DA59D7937E9EFD6AB8BDCAB2FD423045 /* Frameworks */,
-				1AC95A6CA674CD9AF96BE5648E678F11 /* Resources */,
-				66BAA3263972BE809E5C9B3A4AF783F2 /* Headers */,
+				045107006AD0C0FDE089CCC26D4FF165 /* Sources */,
+				5FAAA0FD6110E6BF86554AF567A4AA40 /* Frameworks */,
+				D1F20E6179394E80165F0821AE995464 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				929DB5E5D091D40E05F0EE46136D257A /* PBXTargetDependency */,
+				6910C706C61C317FB0D8EDCB7CBA4858 /* PBXTargetDependency */,
 			);
 			name = CLBanner;
 			productName = CLBanner;
-			productReference = 901A3D12CD9BF976E3B83EF8F39795E0 /* CLBanner.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 4DDF2463A1EE98DE47B8EE82A5ADEA96 /* libCLBanner.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		6FBD94380F53597591BC16BDE002672D /* CLBanner-CLBanner */ = {
+		A44CDA31508998D71A1C6354A3891431 /* Pods-CLBanner_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFE617122DF7A166B6009129F1FC7749 /* Build configuration list for PBXNativeTarget "CLBanner-CLBanner" */;
+			buildConfigurationList = 4CE4E68ED0429BCAFD2845713E4D3C32 /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Tests" */;
 			buildPhases = (
-				E46A9BDFE3809449AAC454E844E00E5D /* Sources */,
-				368F63246C0ACC217DDE29B076997141 /* Frameworks */,
-				DD675F8D7A784C6562EE18EB0212439B /* Resources */,
+				358B9908E09FDAF32BB221BD92B82612 /* Sources */,
+				DFC7C9EA027D83AC364613FF110285A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0A016BB3B776336346C79B2EC599DAF /* PBXTargetDependency */,
+			);
+			name = "Pods-CLBanner_Tests";
+			productName = "Pods-CLBanner_Tests";
+			productReference = 400EBD82E8B79CD166E56854AAD3B31C /* libPods-CLBanner_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB7281D526ACA184A281FF71C5209705 /* CLBanner-CLBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A6B6E7C2B9930650D49546C1E3270D /* Build configuration list for PBXNativeTarget "CLBanner-CLBanner" */;
+			buildPhases = (
+				BF729025CB44F4F115AF0B4B0875F4CF /* Sources */,
+				C8D8B25E0EED6083AE5DD495A495BFD9 /* Frameworks */,
+				73133A988407216CA7E0BC4A8BA9C6E3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -318,44 +288,25 @@
 			);
 			name = "CLBanner-CLBanner";
 			productName = "CLBanner-CLBanner";
-			productReference = 5CA5954A910E2956C1434614C1414364 /* CLBanner.bundle */;
+			productReference = 76A18A76AF6CD245D0483F67293B1D8F /* CLBanner.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		8D771D5063337A8EFC421E461BD22EB5 /* Pods-CLBanner_Tests */ = {
+		F508F78E7A517E80C265E7AC63D63282 /* Pods-CLBanner_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5A92EB84AEC5EDE8906FB627BBDFC4B /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Tests" */;
+			buildConfigurationList = ED793395693E03F481540D3AE2AB1BAC /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Example" */;
 			buildPhases = (
-				3F8E0A1892BA91DD6A5E25361DC6A162 /* Sources */,
-				7BCE73B1DB3E9C9551F6186AA9D273B5 /* Frameworks */,
-				EABBA14D2460E8D5FD42FB4F1911ECE6 /* Headers */,
+				557FC173FE6C226606DC922D1F262BB8 /* Sources */,
+				19AC30271652668050DCDE73B0D22801 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				09006E0F238073F0C6D3875FAA77B989 /* PBXTargetDependency */,
-			);
-			name = "Pods-CLBanner_Tests";
-			productName = "Pods-CLBanner_Tests";
-			productReference = FA3C97ACFB6D6A3C7CB8ABF414408A03 /* Pods_CLBanner_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D457C81CFED4F287A0616E0E73F8A00E /* Pods-CLBanner_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E263F64F11D3F3407F54F96AD276B42B /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Example" */;
-			buildPhases = (
-				F047EDD3ECFCAAE0CF6B5C272C4C7670 /* Sources */,
-				2007DFC9B86CBE1E0899CF0C8A20ACDE /* Frameworks */,
-				E506973DE0C569D27D9AF833310A7BB3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62FE466AFD36C2B1CAD15D4E52D4B6DA /* PBXTargetDependency */,
+				55E35ED525E95EB8D24945CA3F00C9D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-CLBanner_Example";
 			productName = "Pods-CLBanner_Example";
-			productReference = 1015597DFE358B5C3F894496834669CF /* Pods_CLBanner_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 57D3BF89B8E5B0DB30C10BF0538EA95F /* libPods-CLBanner_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -378,24 +329,16 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				348595D7D84F12520AF8D18A80ABC8E8 /* CLBanner */,
-				6FBD94380F53597591BC16BDE002672D /* CLBanner-CLBanner */,
-				D457C81CFED4F287A0616E0E73F8A00E /* Pods-CLBanner_Example */,
-				8D771D5063337A8EFC421E461BD22EB5 /* Pods-CLBanner_Tests */,
+				2E6DCFAA9B21918886E917AC041FD686 /* CLBanner */,
+				BB7281D526ACA184A281FF71C5209705 /* CLBanner-CLBanner */,
+				F508F78E7A517E80C265E7AC63D63282 /* Pods-CLBanner_Example */,
+				A44CDA31508998D71A1C6354A3891431 /* Pods-CLBanner_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1AC95A6CA674CD9AF96BE5648E678F11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A992DCE7583244D8F54B427A923E436E /* CLBanner.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD675F8D7A784C6562EE18EB0212439B /* Resources */ = {
+		73133A988407216CA7E0BC4A8BA9C6E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,59 +348,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F8E0A1892BA91DD6A5E25361DC6A162 /* Sources */ = {
+		045107006AD0C0FDE089CCC26D4FF165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E7E5959BCE2BF0C7C4A2B29EB2FC56 /* Pods-CLBanner_Tests-dummy.m in Sources */,
+				BDB414F25DE4370A36F8B67D3955DAD6 /* CLBanner-dummy.m in Sources */,
+				940B9589C16A6F2E29011FBDD21658FA /* CLBanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E46A9BDFE3809449AAC454E844E00E5D /* Sources */ = {
+		358B9908E09FDAF32BB221BD92B82612 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507969E8F4F2467D385053C0EE554D7F /* Pods-CLBanner_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F047EDD3ECFCAAE0CF6B5C272C4C7670 /* Sources */ = {
+		557FC173FE6C226606DC922D1F262BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D8A594F53B90BC1AA396EF141D7CC1 /* Pods-CLBanner_Example-dummy.m in Sources */,
+				8B8C2C0B7FDABA4F5069384F018A1F8A /* Pods-CLBanner_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4DD0B98743470F40EB1FCD5E737D564 /* Sources */ = {
+		BF729025CB44F4F115AF0B4B0875F4CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16D12F78DA8BC574DC2AB6D8E937259 /* CLBanner-dummy.m in Sources */,
-				0E1004A31BC6221000A9C10C /* CLBanner.m in Sources */,
-				9BC4BB5DBBA5347FA050A39F0D00A1E3 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09006E0F238073F0C6D3875FAA77B989 /* PBXTargetDependency */ = {
+		55E35ED525E95EB8D24945CA3F00C9D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLBanner;
-			target = 348595D7D84F12520AF8D18A80ABC8E8 /* CLBanner */;
-			targetProxy = E25CB92519316699A3E5F5C6C893000B /* PBXContainerItemProxy */;
+			target = 2E6DCFAA9B21918886E917AC041FD686 /* CLBanner */;
+			targetProxy = A30D84DBAD6ECA87F58AA40BB70E0DAA /* PBXContainerItemProxy */;
 		};
-		62FE466AFD36C2B1CAD15D4E52D4B6DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CLBanner;
-			target = 348595D7D84F12520AF8D18A80ABC8E8 /* CLBanner */;
-			targetProxy = 25C7F0D0EE318E91EA5969469D235080 /* PBXContainerItemProxy */;
-		};
-		929DB5E5D091D40E05F0EE46136D257A /* PBXTargetDependency */ = {
+		6910C706C61C317FB0D8EDCB7CBA4858 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CLBanner-CLBanner";
-			target = 6FBD94380F53597591BC16BDE002672D /* CLBanner-CLBanner */;
-			targetProxy = 911987A8D62FCDF93E6B4FB0B2DA0C38 /* PBXContainerItemProxy */;
+			target = BB7281D526ACA184A281FF71C5209705 /* CLBanner-CLBanner */;
+			targetProxy = 9DED4450EC2F4997358E802A67C49037 /* PBXContainerItemProxy */;
+		};
+		E0A016BB3B776336346C79B2EC599DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLBanner;
+			target = 2E6DCFAA9B21918886E917AC041FD686 /* CLBanner */;
+			targetProxy = 20A06EF1537FE13ABAF95E3523004997 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -535,133 +477,57 @@
 			};
 			name = Debug;
 		};
-		226FE7A47EC9C46F3B244C6AB5745EFF /* Debug */ = {
+		2BB95C1ACF5589A9C403FD90FC27FAA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA07802BB9B54C37A7D6407595607B00 /* CLBanner-Private.xcconfig */;
+			baseConfigurationReference = C1F8835D77CD5D597C3475AA3C97CDB1 /* CLBanner-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/CLBanner/CLBanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLBanner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CLBanner/CLBanner.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CLBanner;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4A6A575641C4426C9F0F7BACB9F138D1 /* Debug */ = {
+		6340193631F195FFFD5710700B548337 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA07802BB9B54C37A7D6407595607B00 /* CLBanner-Private.xcconfig */;
+			baseConfigurationReference = 5B512B05F1D583ED0B6FC4F0DA9FAB15 /* Pods-CLBanner_Example.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CLBanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		61C67F217B48A491A1B2B5E595079C48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52B15D18A56289AD2FCEF62E844A308D /* Pods-CLBanner_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CLBanner_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CLBanner_Example/Pods-CLBanner_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CLBanner_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		65EFC0A738513A30E69A3AF8FED169FB /* Release */ = {
+		8825A7C9847100FAD3985EE727BF2A14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA07802BB9B54C37A7D6407595607B00 /* CLBanner-Private.xcconfig */;
+			baseConfigurationReference = 81E549E43565164C48ECE8FB57930E9D /* Pods-CLBanner_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CLBanner/CLBanner-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLBanner/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CLBanner/CLBanner.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CLBanner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8A310213F545AAAFB145C646EE42958E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 807FFD981DAE12C7EC30237582E5762B /* Pods-CLBanner_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CLBanner_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CLBanner_Tests/Pods-CLBanner_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CLBanner_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		97C03ED10CE6C23081D3C72A0253B8BB /* Release */ = {
+		9D9D5C13E3B171B60D0AB7A61A11C4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA07802BB9B54C37A7D6407595607B00 /* CLBanner-Private.xcconfig */;
+			baseConfigurationReference = C1F8835D77CD5D597C3475AA3C97CDB1 /* CLBanner-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = CLBanner;
@@ -671,67 +537,78 @@
 			};
 			name = Release;
 		};
-		C61369AB0642E850125390B52AA49221 /* Debug */ = {
+		A92EA5F57FBF47BC96E237B85E4ADD5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 937EAE939BFD0500FA084614207BC6A1 /* Pods-CLBanner_Tests.debug.xcconfig */;
+			baseConfigurationReference = 264376E7B11F13A47653EF8A62FDA1E4 /* Pods-CLBanner_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CLBanner_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CLBanner_Tests/Pods-CLBanner_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CLBanner_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FB6C94F80DEA5B057E65FD33CD59F488 /* Debug */ = {
+		BED4D1796C8B1AB3B4909FDAD3BB61E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBAC4BA1F5BBB425C6B13984B39A4976 /* Pods-CLBanner_Example.debug.xcconfig */;
+			baseConfigurationReference = C1F8835D77CD5D597C3475AA3C97CDB1 /* CLBanner-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CLBanner_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = CLBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E5568F8362BF0834D6D9DA6971C361F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F8835D77CD5D597C3475AA3C97CDB1 /* CLBanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CLBanner/CLBanner-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CLBanner_Example/Pods-CLBanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F3C6D456E6876B4C2954FD17650B940C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A89E6FF9C69ED07BD3EC8B8538683A2 /* Pods-CLBanner_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CLBanner_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2394D5454CF06D608BD8397B127BC499 /* Build configuration list for PBXNativeTarget "CLBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB95C1ACF5589A9C403FD90FC27FAA2 /* Debug */,
+				E5568F8362BF0834D6D9DA6971C361F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -741,38 +618,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5A92EB84AEC5EDE8906FB627BBDFC4B /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Tests" */ = {
+		4CE4E68ED0429BCAFD2845713E4D3C32 /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C61369AB0642E850125390B52AA49221 /* Debug */,
-				8A310213F545AAAFB145C646EE42958E /* Release */,
+				A92EA5F57FBF47BC96E237B85E4ADD5C /* Debug */,
+				8825A7C9847100FAD3985EE727BF2A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFE617122DF7A166B6009129F1FC7749 /* Build configuration list for PBXNativeTarget "CLBanner-CLBanner" */ = {
+		68A6B6E7C2B9930650D49546C1E3270D /* Build configuration list for PBXNativeTarget "CLBanner-CLBanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A6A575641C4426C9F0F7BACB9F138D1 /* Debug */,
-				97C03ED10CE6C23081D3C72A0253B8BB /* Release */,
+				BED4D1796C8B1AB3B4909FDAD3BB61E3 /* Debug */,
+				9D9D5C13E3B171B60D0AB7A61A11C4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E263F64F11D3F3407F54F96AD276B42B /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Example" */ = {
+		ED793395693E03F481540D3AE2AB1BAC /* Build configuration list for PBXNativeTarget "Pods-CLBanner_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB6C94F80DEA5B057E65FD33CD59F488 /* Debug */,
-				61C67F217B48A491A1B2B5E595079C48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3DD15B83E7EFCF0B721991E06C5FCCA /* Build configuration list for PBXNativeTarget "CLBanner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				226FE7A47EC9C46F3B244C6AB5745EFF /* Debug */,
-				65EFC0A738513A30E69A3AF8FED169FB /* Release */,
+				F3C6D456E6876B4C2954FD17650B940C /* Debug */,
+				6340193631F195FFFD5710700B548337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

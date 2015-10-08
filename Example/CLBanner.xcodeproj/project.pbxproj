@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D375EFA5FEB32A31B6F6AE /* Pods_CLBanner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB94E54D514050437AADFEE /* Pods_CLBanner_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0E1004A61BC6277500A9C10C /* ExampleBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1004A51BC6277500A9C10C /* ExampleBanner.m */; };
+		0E1004A81BC6278400A9C10C /* ExampleBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1004A71BC6278400A9C10C /* ExampleBanner.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DAB24BCF444EBF6DB2300270 /* Pods_CLBanner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259B440A254FBA44A5E0C920 /* Pods_CLBanner_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8BD5F153066906165A7C7609 /* libPods-CLBanner_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F301800852E118FBE80BF454 /* libPods-CLBanner_Example.a */; };
+		977DFA82551734F6D95F4046 /* libPods-CLBanner_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B8A102F59A3348BB4D6E44 /* libPods-CLBanner_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B8A102F59A3348BB4D6E44 /* libPods-CLBanner_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLBanner_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947A53C2D202CC89D42D1AE /* Pods-CLBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLBanner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLBanner_Tests/Pods-CLBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1004A41BC6277500A9C10C /* ExampleBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleBanner.h; sourceTree = "<group>"; };
+		0E1004A51BC6277500A9C10C /* ExampleBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleBanner.m; sourceTree = "<group>"; };
+		0E1004A71BC6278400A9C10C /* ExampleBanner.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleBanner.xib; sourceTree = "<group>"; };
 		10FA9BB278DE202761782A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		12F581A5FFCD03EBDC1D3175 /* Pods-CLBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLBanner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLBanner_Example/Pods-CLBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		259B440A254FBA44A5E0C920 /* Pods_CLBanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* CLBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CLBanner.app; path = CLBanner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CLBanner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLBanner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,7 +58,7 @@
 		6003F5A5195388D20070C39A /* CLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* CLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = CLBanner_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* CLBanner_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLBanner_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -62,8 +67,8 @@
 		754723A6ECDF252CF93B1C82 /* CLBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CLBanner.podspec; path = ../CLBanner.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9E46DC79AE9A9AB8B2EB11D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BAB94E54D514050437AADFEE /* Pods_CLBanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLBanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CCE3BAE33BF9F3615B31AC /* Pods-CLBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLBanner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLBanner_Example/Pods-CLBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F301800852E118FBE80BF454 /* libPods-CLBanner_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLBanner_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FCA2CFD3C936CD8F9CF946 /* Pods-CLBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLBanner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLBanner_Tests/Pods-CLBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DAB24BCF444EBF6DB2300270 /* Pods_CLBanner_Example.framework in Frameworks */,
+				8BD5F153066906165A7C7609 /* libPods-CLBanner_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				07D375EFA5FEB32A31B6F6AE /* Pods_CLBanner_Tests.framework in Frameworks */,
+				977DFA82551734F6D95F4046 /* libPods-CLBanner_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +113,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CLBanner.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* CLBanner_Example.app */,
+				6003F5AE195388D20070C39A /* CLBanner_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				259B440A254FBA44A5E0C920 /* Pods_CLBanner_Example.framework */,
-				BAB94E54D514050437AADFEE /* Pods_CLBanner_Tests.framework */,
+				F301800852E118FBE80BF454 /* libPods-CLBanner_Example.a */,
+				04B8A102F59A3348BB4D6E44 /* libPods-CLBanner_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +142,9 @@
 				6003F5A6195388D20070C39A /* CLViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				0E1004A41BC6277500A9C10C /* ExampleBanner.h */,
+				0E1004A51BC6277500A9C10C /* ExampleBanner.m */,
+				0E1004A71BC6278400A9C10C /* ExampleBanner.xib */,
 			);
 			name = "Example for CLBanner";
 			path = CLBanner;
@@ -204,7 +212,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				904A1AF8173D786F654E648C /* Embed Pods Frameworks */,
 				CDD22DC1B73F0314B13402FA /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -213,7 +220,7 @@
 			);
 			name = CLBanner_Example;
 			productName = CLBanner;
-			productReference = 6003F58A195388D20070C39A /* CLBanner.app */;
+			productReference = 6003F58A195388D20070C39A /* CLBanner_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* CLBanner_Tests */ = {
@@ -224,7 +231,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				36CA90A917F52804B6A21E3A /* Embed Pods Frameworks */,
 				27854CE8F24AAEBA963AF302 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -234,7 +240,7 @@
 			);
 			name = CLBanner_Tests;
 			productName = CLBannerTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* CLBanner_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -276,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1004A81BC6278400A9C10C /* ExampleBanner.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -323,21 +330,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLBanner_Tests/Pods-CLBanner_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		36CA90A917F52804B6A21E3A /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLBanner_Tests/Pods-CLBanner_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		49823555CA3350B167763594 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,21 +343,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		904A1AF8173D786F654E648C /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLBanner_Example/Pods-CLBanner_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDD22DC1B73F0314B13402FA /* Copy Pods Resources */ = {
@@ -390,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1004A61BC6277500A9C10C /* ExampleBanner.m in Sources */,
 				6003F59E195388D20070C39A /* CLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
